@@ -4,7 +4,7 @@ sap.ui.define([
     function (UIComponent) {
         "use strict";
 
-        return UIComponent.extend("sap.training.exc.Component", {
+        return UIComponent.extend("sap.texcraining..Component", {
 
 
 
