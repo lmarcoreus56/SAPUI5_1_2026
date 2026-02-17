@@ -4,9 +4,16 @@ sap.ui.define([
     function (UIComponent) {
         "use strict";
 
-        return UIComponent.extend("sap.texcraining..Component", {
+        return UIComponent.extend("sap.training.exc.Component", {
 
+            metadata: {
+                manifest: "json"
+            },
 
+            init: function () {
+                // Call the base component's init funtion 
+                UIComponent.prototype.init.apply(this, arguments);
+            }
 
 
         });
