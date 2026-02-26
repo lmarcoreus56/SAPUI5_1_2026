@@ -10,6 +10,9 @@
             <Panel
                 headerText="New Customer"
                 expandable="true"
+                class="sapUiResponsiveMargin sapUiHideOnPhone"
+                width="auto"
+
             >
                 <content>
                     <f:SimpleForm
