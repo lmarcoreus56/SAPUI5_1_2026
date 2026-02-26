@@ -7,8 +7,6 @@ sap.ui.define([
         "use strict";
 
         return Controller.extend("sap.training.exc.controller.App", {
-            onSayHello: function () {
-                MessageBox.information("Hello World");
-            }
+            
         });
     });
