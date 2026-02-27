@@ -24,8 +24,9 @@
                                 <content>
                                     <ToolbarSpacer />
                                     <Button
-                                        icon="sap-icon://create"
-                                        text="Create Customer"
+                                        icon="sap-icon://Delete"
+                                        text="Create Customer popo"
+                                        press="OnSave"
                                     />
                                 </content>
                             </Toolbar>

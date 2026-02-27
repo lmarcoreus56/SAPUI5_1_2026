@@ -1,0 +1,27 @@
+<core:FragmentDefinition
+    xmlns="sap.m"
+    xmlns:core="sap.ui.core"
+>
+    <Dialog
+        title="Bienvenida"
+        type="Message"
+    >
+        <content>
+            <VBox class="sapUiSmallMargin">
+                <Text text="Bienvenido a la aplicacion SAPUI5" />
+                <Text text="Esta es tu primera vez aqui" />
+            </VBox>
+        </content>
+        <buttons>
+            <Button
+                text="Comenzar"
+                type="Emphasized"
+                press="onWelcomeConfirm"
+            />
+            <Button
+                text="Cerrar"
+                press="onWelcomeCancel"
+            />
+        </buttons>
+    </Dialog>
+</core:FragmentDefinition>

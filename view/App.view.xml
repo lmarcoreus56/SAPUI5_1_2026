@@ -8,7 +8,6 @@
         <App>
             <pages>
                 <mvc:XMLView id="overview1" viewName="sap.training.exc.view.Overview" />
-                <mvc:XMLView id="overview2" viewName="sap.training.exc.view.Overview" />
             </pages>
         </App>
     </Shell>
